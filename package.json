@@ -1,0 +1,22 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "Beth and Johnny workshop",
+  "main": "twitter.js",
+  "scripts": {
+    "test": "echo twitter workshop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaraujo6/twitter.git"
+  },
+  "author": "B&J",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaraujo6/twitter/issues"
+  },
+  "homepage": "https://github.com/Jaraujo6/twitter#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
