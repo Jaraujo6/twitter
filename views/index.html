@@ -15,7 +15,9 @@
 
       <!-- display tweets here -->
       {% for tweet in tweets %}
-        <li>{{tweet.content}}</li>
+      <img src="https://pbs.twimg.com/profile_images/2450268678/olxp11gnt09no2y2wpsh_normal.jpeg">
+        <ul class = 'blueName'>{{tweet.name}} </ul>
+        <ul>{{tweet.content}}</ul>
       {% endfor %}
 
     </div>
