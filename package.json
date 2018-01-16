@@ -4,7 +4,8 @@
   "description": "Beth and Johnny workshop",
   "main": "twitter.js",
   "scripts": {
-    "test": "echo twitter workshop"
+    "test": "echo twitter workshop",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/Jaraujo6/twitter#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "nunjucks": "^3.0.1",
+    "volleyball": "^1.4.1"
   }
 }
