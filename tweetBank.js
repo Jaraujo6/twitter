@@ -3,10 +3,8 @@ const _ = require('lodash');
 let data = [];
 
 function add (name, content) {
-  let index = String(Math.ceil(name.length * Math.random()) *(Math.ceil(content.length * Math.random())));
-  data.push({ name: name, content: content, id: index});
-  //Note: how would we create a counter or increasing ID number?
-  // console.log(data);
+  data.push({ name: name, content: content, id: data.length});
+
 }
 
 function list () {
